@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML</title>
+    <title>StudentIDCreation.com</title>
 </head>
 <body>
     <header>
         <h1>Student Id Creation</h1>
     </header>
     <main>
-        <form>
-            <input type="Text" placeholder="Username"><br>
+        <form action="/action.php">
+            <input type="Text" placeholder="Username"><br><br>
             <input type="Password" placeholder="Password"><br><br>
 
             <h4>Select Your Class</h4>
@@ -45,8 +45,23 @@
             <label for="PE">
                 <input type="checkbox" value="PE" name="class" label="106">PE
             </label><br>
+            <br> 
+            <h4>Tell Something About Yourself</h4>
+            <textarea name="class"value="Details" placeholder="Tell Something" label="D1">Tell Something
+            </textarea> 
+            <br>
+            <h4>Select Your State</h4>
+            <select name="State", id="S1">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Kolkata">Kolkata</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+            
         </form>
-    
+    <br><br>
+    <video src="/StudentIDCreation.com.mp4" controls height="315" width="560">
     </main>
 </body>
 </html>
